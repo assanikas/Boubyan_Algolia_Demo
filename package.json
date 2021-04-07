@@ -32,7 +32,7 @@
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
     "start": "rm -rf dist/* && parcel ./src/index.html --open",
-    "build": "rm -rf dist/* && parcel build ./src/index.html -d dist/ --public-url /answers-support-chat-demo/ "
+    "build": "rm -rf dist/* && parcel build ./src/index.html -d dist/ --public-url / "
   },
   "husky": {
     "hooks": {
