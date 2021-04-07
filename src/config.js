@@ -7,7 +7,7 @@ export default {
   indexName: "boubyan",
 
   /* Answers parameters */
-  attributesForPrediction: ["description4", "description3", "description2", "description"],
+  attributesForPrediction: ["description4", "description3", "description2"],
   queryLanguages: ["en"],
   nbHits: 4, // default 10
   threshold: 0, // default 0
