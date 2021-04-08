@@ -11,6 +11,7 @@ export default {
   queryLanguages: ["en"],
   nbHits: 4, // default 10
   threshold: 0, // default 0
+  returnExtractAttribute: true,
   params: {},
 
   /* Use for styling and text rendering */
